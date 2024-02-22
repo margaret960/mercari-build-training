@@ -52,6 +52,8 @@ def get_item_id(item_id: int):
         item = items_list[item_id]
         return item
 
+
+
 @app.get("/image/{image_name}")
 async def get_image(image_name):
     # Create image path
